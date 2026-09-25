@@ -52,3 +52,9 @@ Requires an unlocked bootloader. Prebuilt zips are on the [Releases](https://git
 ## Credits
 
 LineageOS, mt6768-dev and everyone who maintains the lancelot / MT6768 trees.
+
+## License
+
+The build script, manifest and docs in this repo are licensed under the [Apache License 2.0](LICENSE).
+LineageOS, AOSP and the device/kernel trees keep their own licenses; the proprietary vendor
+blobs pulled in by the manifest belong to Xiaomi/MediaTek and are not covered by this license.

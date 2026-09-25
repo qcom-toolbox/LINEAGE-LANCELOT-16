@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 #
+# SPDX-License-Identifier: Apache-2.0
+#
 # Build LineageOS 23.2 (Android 16) for the Xiaomi Redmi 9 (lancelot).
 #
 # Usage:
