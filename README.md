@@ -16,8 +16,8 @@ MediaTek / Xiaomi glue from [LineageOS](https://github.com/LineageOS).
 ## Build
 
 ```bash
-git clone https://github.com/<you>/lancelot-build
-cd lancelot-build
+git clone https://github.com/qcom-toolbox/LINEAGE-LANCELOT-16
+cd LINEAGE-LANCELOT-16
 ./build.sh
 ```
 
@@ -42,7 +42,7 @@ Lines like `FAILED: … action cancelled when ninja exited` after an interrupt a
 > `persist`, `proinfo`, `protect1/2`) and current firmware before the first flash.
 > Keep the backups private: they contain your IMEI.
 
-Requires an unlocked bootloader.
+Requires an unlocked bootloader. Prebuilt zips are on the [Releases](https://github.com/qcom-toolbox/LINEAGE-LANCELOT-16/releases) page.
 
 1. `fastboot flash recovery recovery.img`, then boot to recovery (Vol+ & Power).
 2. **Factory reset → Format data** (required when coming from another ROM; wipes everything).
