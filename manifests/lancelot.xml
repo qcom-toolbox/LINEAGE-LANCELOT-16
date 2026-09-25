@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="mt6768-dev" fetch="https://github.com/mt6768-dev" revision="lineage-23.2" />
+
+  <!-- device trees -->
+  <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot" remote="mt6768-dev" />
+  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="mt6768-dev" />
+
+  <!-- kernel -->
+  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="mt6768-dev" clone-depth="1" />
+
+  <!-- proprietary blobs -->
+  <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="mt6768-dev" clone-depth="1" />
+  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="mt6768-dev" clone-depth="1" />
+
+  <!-- LineageOS MTK / Xiaomi glue (not in default lineage manifest) -->
+  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" />
+  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" />
+</manifest>

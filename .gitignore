@@ -1,0 +1,5 @@
+lineage/
+releases/
+out/
+*.img
+*.zip
